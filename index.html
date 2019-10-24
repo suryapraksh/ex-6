@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            #c1{
+                width:200px;
+                height: 200px;
+                position: relative;
+                background-image: url('data:image/png;base64,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');    
+                background-repeat: no-repeat;
+                background-size: contain;
+            }
+        </style>
+
+    </head>
+    <body onload="display()">
+        <h1>Digital Clock!</h1>
+        <span id="time"></span>
+        <script>
+            function display() {
+                var d = new Date();
+                var h = d.getHours();
+                var m = d.getMinutes();
+                var s = d.getSeconds();
+                m = checkTime(m);
+                s = checkTime(s);
+                document.getElementById('txt').innerHTML =
+                        h + ":" + m + ":" + s;
+                var t = setInterval("display()", 1000);
+            }
+            function checkTime(i) {
+                if (i < 10) {
+                    i = "0" + i;
+                }
+                ; // add zero in front of numbers < 10
+                return i;
+            }
+        </script>
+        <div id="txt"></div>
+        <h1>Change Background color</h1>
+        <button id="b1" onclick="background();">
+            click me!
+        </button>
+        <script>
+            function background() {
+                var red = Math.floor(Math.random() * 255);
+                var blue = Math.floor(Math.random() * 255);
+                var green = Math.floor(Math.random() * 255);
+                var color = "rgb(" + red + "," + green + "," + blue + ")";
+                document.body.style.backgroundColor = color;
+            }
+        </script>
+        <h1>Change font size!</h1>
+        <p id="para1" onmouseover="incSize()" onmouseout="decSize()">
+            move cursor over me to zoom in...
+        </p>
+        <script>
+            function incSize() {
+                document.getElementById("para1").style = "font-size:30px";
+            }
+
+            function decSize() {
+                document.getElementById("para1").style = "font-size:16px";
+            }
+        </script>
+        <h1> Animation </h1>
+        <div id="c1" style="position:relative;left:10px;"></div> <!--img src="data:image/png;base64,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">-->
+        <button onclick="move()">start</button>
+
+        <button onclick="stop()">stop</button>
+
+        <script>
+            var timer;
+            var element;
+            var i = 0;
+            var pos = parseInt(element.style.left);
+               
+            function move() {
+                element = document.getElementById("c1");
+                pos= pos+10;
+                element.style.left = pos+ "px";
+                timer = setTimeout(move, 100000);
+            }
+            function stop() {
+                clearTimeout(timer);
+            }
+        </script>
+        <h1> Array of Objects </h1>
+        <div id="display" onclick="fun()">
+            Click Here
+        </div>
+       
+        <script>
+            function fun()
+            {
+                var a =[ {f_name: 'Alaia', l_name: 'Mcbroom', Dob: 1982},
+                 {f_name: 'Bella', l_name: 'Johnston', Dob: 1979},
+                 {f_name: 'Caren', l_name: 'Cutihna', Dob: 1984},
+                 {f_name: 'Dane', l_name: 'Stokes', Dob: 1982},
+                {f_name: 'Andrew', l_name: 'Guila', Dob: 1982}
+                ];
+                for(i=0;i<5;++i)
+                {
+                   var y;
+                   if(a[i].dob>1980)
+                       y="after 1980s";
+                   else if(a[i].dob==1980)
+                       y="in 1980";
+                   else
+                       y="before 1980";
+                   document.getElementById("display").innerHTML+='object'+(i+1)+'<br>name:'+a[i].f_name+''+a[i].l_name+'<br>birthyear:'+y+'<br><br>';
+                }
+            }
+     
+        </script>
+    </body>
+
+</html>
